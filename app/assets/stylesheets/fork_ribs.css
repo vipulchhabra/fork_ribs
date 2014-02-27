@@ -1,5 +1,7 @@
 /*classic github ribbons classes start*/
 
+/*classic_ribbon classes for blue color start*/
+
 .classic_ribbon---top--left-blue {
     top: 3em;
     left: -6em;
@@ -137,6 +139,10 @@
 }
 .classic_ribbon---bottom--right-blue:hover {background-color: $flat_midnight_blue;}
 
+/*classic_ribbon classes for blue color end*/
+
+/*classic_ribbon classes for red color start*/
+
 .classic_ribbon---top--left-red {
     top: 3em;
     left: -6em;
@@ -272,6 +278,10 @@
     border: 2px rgba(255,255,255,0.7) dashed;
 }
 .classic_ribbon---bottom--right-red:hover {background-color: $flat_midnight_blue;}
+
+/*classic_ribbon classes for red color end*/
+
+/*classic_ribbon classes for green color start*/
 
 .classic_ribbon---top--left-green {
     top: 3em;
@@ -409,6 +419,10 @@
 }
 .classic_ribbon---bottom--right-green:hover {background-color: $flat_midnight_blue;}
 
+/*classic_ribbon classes for green color end*/
+
+/*classic_ribbon classes for orange color start*/
+
 .classic_ribbon---top--left-orange {
     top: 3em;
     left: -6em;
@@ -545,14 +559,14 @@
 }
 .classic_ribbon---bottom--right-orange:hover {background-color: $flat_midnight_blue;}
 
+/*classic_ribbon classes for orange color end*/
+
 /*classic github ribbons classes end*/
 
 
-
-
-
-
 /*FLat github ribbons classes start*/
+
+/*Media queries for ribbon size based on screen size */
 
 @media (max-width: 44em) {
   .ribbon {
@@ -560,23 +574,7 @@
   }
 }
 
-/*
- * Basic styles for the ribbon__modifiers
- */
-
-
-/*.ribbon.ribbon__alpha, .ribbon.ribbon__beta, .ribbon.ribbon__gamma, .ribbon.ribbon__delta {
-  color: white;
-  box-shadow: 0 0 0 0.75em rgba(255, 255, 255, 0);
-  -moz-transition: color 0.35s ease-in, box-shadow 0.215s ease-out;
-  -o-transition: color 0.35s ease-in, box-shadow 0.215s ease-out;
-  -webkit-transition: color 0.35s ease-in, box-shadow 0.215s ease-out;
-  transition: color 0.35s ease-in, box-shadow 0.215s ease-out;
-}
-.ribbon.ribbon__alpha:hover, .ribbon.ribbon__beta:hover, .ribbon.ribbon__gamma:hover, .ribbon.ribbon__delta:hover {
-  background: white;
-  box-shadow: 0 0 0 0.25em rgba(255, 255, 255, 0.4);
-}*/
+/*FLat_ribbon classes for blue color start*/
 
 .flat_ribbon---top--right-blue {
   position: absolute;
@@ -643,6 +641,10 @@
   font-family: sans-serif;
 }
 
+/*FLat_ribbon classes for blue color end*/
+
+/*FLat_ribbon classes for red color start*/
+
 .flat_ribbon---top--right-red {
   position: absolute;
   padding: 0.5em;
@@ -706,6 +708,10 @@
   background-size: cover;
   font-family: sans-serif;
 }
+
+/*FLat_ribbon classes for red color end*/
+
+/*FLat_ribbon classes for green color start*/
 
 .flat_ribbon---top--right-green {
   position: absolute;
@@ -771,6 +777,9 @@
   font-family: sans-serif;
 }
 
+/*FLat_ribbon classes for green color end*/
+
+/*FLat_ribbon classes for orange color start*/
 
 .flat_ribbon---top--right-orange {
   position: absolute;
@@ -836,13 +845,20 @@
   font-family: sans-serif;
 }
 
+/*FLat_ribbon classes for orange color end*/
+
+/*FLat_ribbon after hover classes for blue color start*/
+
 .flat_ribbon---top--right-blue:hover, .flat_ribbon---bottom--right-blue:hover, .flat_ribbon---top--left-blue:hover, 
 .flat_ribbon---bottom--left-blue:hover{
     text-decoration: none;
     background: white;
     color: #1b9af7;
-
 }
+
+/*FLat_ribbon after hover classes for blue color end*/
+
+/*FLat_ribbon after hover classes for red color start*/
 
 .flat_ribbon---top--right-red:hover, .flat_ribbon---bottom--right-red:hover, .flat_ribbon---top--left-red:hover,
 .flat_ribbon---bottom--left-red:hover {
@@ -851,12 +867,20 @@
     color: #FF4351;
  } 
 
+ /*FLat_ribbon after hover classes for red color end*/
+
+ /*FLat_ribbon after hover classes for green color start*/
+
 .flat_ribbon---top--right-green:hover, .flat_ribbon---bottom--right-green:hover, .flat_ribbon---top--left-green:hover,
 .flat_ribbon---bottom--left-green:hover {
     text-decoration: none;
     background: white;
     color: #2ecc71;
 }
+
+/*FLat_ribbon after hover classes for green color end*/
+
+/*FLat_ribbon after hover classes for orange color start*/
 
 .flat_ribbon---top--right-orange:hover, .flat_ribbon---bottom--right-orange:hover, .flat_ribbon---top--left-orange:hover, 
 .flat_ribbon---bottom--left-orange:hover {
@@ -865,65 +889,9 @@
     color: #feae1b;
 }
 
-/*.ribbon.ribbon__alpha {
-  background: #3498db;
-  background: -moz-linear-gradient(top, #3498db, #2980b9);
-  background: -o-linear-gradient(top, #3498db, #2980b9);
-  background: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background: linear-gradient(to bottom, #3498db, #2980b9);
-  background: -moz-linear-gradient(top, #3498db, #2980b9);
-  background: -o-linear-gradient(top, #3498db, #2980b9);
-  background: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background: linear-gradient(to bottom, #3498db, #2980b9);
-}
-.ribbon.ribbon__alpha:hover {
-  color: #3498db;
-}
-.ribbon.ribbon__beta {
-  background: #e74c3c;
-  background: -moz-linear-gradient(top, #e74c3c, #c0392b);
-  background: -o-linear-gradient(top, #e74c3c, #c0392b);
-  background: -webkit-linear-gradient(top, #e74c3c, #c0392b);
-  background: linear-gradient(to bottom, #e74c3c, #c0392b);
-  background: -moz-linear-gradient(top, #e74c3c, #c0392b);
-  background: -o-linear-gradient(top, #e74c3c, #c0392b);
-  background: -webkit-linear-gradient(top, #e74c3c, #c0392b);
-  background: linear-gradient(to bottom, #e74c3c, #c0392b);
-}
-.ribbon.ribbon__beta:hover {
-  color: #e74c3c;
-}
-.ribbon.ribbon__gamma {
-  background: #2ecc71;
-  background: -moz-linear-gradient(top, #2ecc71, #27ae60);
-  background: -o-linear-gradient(top, #2ecc71, #27ae60);
-  background: -webkit-linear-gradient(top, #2ecc71, #27ae60);
-  background: linear-gradient(to bottom, #2ecc71, #27ae60);
-  background: -moz-linear-gradient(top, #2ecc71, #27ae60);
-  background: -o-linear-gradient(top, #2ecc71, #27ae60);
-  background: -webkit-linear-gradient(top, #2ecc71, #27ae60);
-  background: linear-gradient(to bottom, #2ecc71, #27ae60);
-}
-.ribbon.ribbon__gamma:hover {
-  color: #2ecc71;
-}
-.ribbon.ribbon__delta {
-  background: #e67e22;
-  background: -moz-linear-gradient(top, #e67e22, #d35400);
-  background: -o-linear-gradient(top, #e67e22, #d35400);
-  background: -webkit-linear-gradient(top, #e67e22, #d35400);
-  background: linear-gradient(to bottom, #e67e22, #d35400);
-  background: -moz-linear-gradient(top, #e67e22, #d35400);
-  background: -o-linear-gradient(top, #e67e22, #d35400);
-  background: -webkit-linear-gradient(top, #e67e22, #d35400);
-  background: linear-gradient(to bottom, #e67e22, #d35400);
-}
-.ribbon.ribbon__delta:hover {
-  color: #e67e22;
-}*/
+/*FLat_ribbon after hover classes for orange color end*/
 
 /*FLat github ribbons classes end*/
-
 
 
 /*snazzy github ribbons classes start*/
@@ -933,6 +901,8 @@
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
+
+/*Snazzy_ribbon classes for red color start*/
 
  .snazzy_ribbon---bottom--left-red {
   position: fixed;
@@ -958,7 +928,6 @@
 
   background: #FF4351;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #dc0010, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---bottom--left-red:before span {
@@ -1014,7 +983,6 @@
 
   background: #FF4351;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #dc0010, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---bottom--right-red:before span {
@@ -1040,16 +1008,13 @@
   -ms-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
   transform: rotate(-180deg)
-      
-
 }
 
 .snazzy_ribbon---bottom--right-red:hover a span {
   opacity: 1;
 }
 
-
- .snazzy_ribbon---top--right-red {
+.snazzy_ribbon---top--right-red {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1073,7 +1038,6 @@
 
   background: #FF4351;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #dc0010, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---top--right-red:before span {
@@ -1099,15 +1063,13 @@
   transform: rotate(90deg) translateY(1em);
   margin: 2.5em .9em;
   margin-top: 2em;
-      
-
 }
 
 .snazzy_ribbon---top--right-red:hover a span {
   opacity: 1;
 }
 
- .snazzy_ribbon---top--left-red {
+.snazzy_ribbon---top--left-red {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1131,7 +1093,6 @@
 
   background: #FF4351;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #dc0010, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---top--left-red:before span {
@@ -1148,19 +1109,15 @@
   -webkit-transition: opacity 0.2s ease, transform 0.4s ease;
   -moz-transition: opacity 0.2s ease, transform 0.4s ease;
   transition: opacity 0.2s ease, transform 0.4s ease;
-      
-
 }
 
 .snazzy_ribbon---top--left-red:hover a span {
   opacity: 1;
 }
 
+/*Snazzy_ribbon classes for red color end*/
 
-
-
-
-
+/*Snazzy_ribbon classes for blue color start*/
 
 .snazzy_ribbon---bottom--left-blue {
   position: fixed;
@@ -1186,7 +1143,6 @@
 
   background: #1b9af7;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #0662a6, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---bottom--left-blue:before span {
@@ -1242,7 +1198,6 @@
 
   background: #1b9af7;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #0662a6, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---bottom--right-blue:before span {
@@ -1268,8 +1223,6 @@
   -ms-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
   transform: rotate(-180deg)
-      
-
 }
 
 .snazzy_ribbon---bottom--right-blue:hover a span {
@@ -1277,7 +1230,7 @@
 }
 
 
- .snazzy_ribbon---top--right-blue {
+.snazzy_ribbon---top--right-blue {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1301,7 +1254,6 @@
 
   background: #1b9af7;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #0662a6, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---top--right-blue:before span {
@@ -1327,15 +1279,13 @@
   transform: rotate(90deg) translateY(1em);
   margin: 2.5em .9em;
   margin-top: 2em;
-      
-
 }
 
 .snazzy_ribbon---top--right-blue:hover a span {
   opacity: 1;
 }
 
- .snazzy_ribbon---top--left-blue {
+.snazzy_ribbon---top--left-blue {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1359,7 +1309,6 @@
 
   background: #1b9af7;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #0662a6, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---top--left-blue:before span {
@@ -1376,22 +1325,17 @@
   -webkit-transition: opacity 0.2s ease, transform 0.4s ease;
   -moz-transition: opacity 0.2s ease, transform 0.4s ease;
   transition: opacity 0.2s ease, transform 0.4s ease;
-      
-
 }
 
 .snazzy_ribbon---top--left-blue:hover a span {
   opacity: 1;
 }
 
+/*Snazzy_ribbon classes for blue color end*/
 
+/*Snazzy_ribbon classes for green color start*/
 
-
-
-
-
-
- .snazzy_ribbon---bottom--left-green {
+.snazzy_ribbon---bottom--left-green {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1415,7 +1359,6 @@
 
   background: #2ecc71;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #1b7943, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---bottom--left-green:before span {
@@ -1444,7 +1387,9 @@
 
 .snazzy_ribbon---bottom--left-green:hover a span {
   opacity: 1;
-}green.snazzy_ribbon---bottom--right-green {
+}
+
+.snazzy_ribbon---bottom--right-green {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1468,7 +1413,6 @@
 
   background: #2ecc71;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #1b7943, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---bottom--right-green:before span {
@@ -1494,8 +1438,6 @@
   -ms-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
   transform: rotate(-180deg)
-      
-
 }
 
 .snazzy_ribbon---bottom--right-green:hover a span {
@@ -1503,7 +1445,7 @@
 }
 
 
- .snazzy_ribbon---top--right-green {
+.snazzy_ribbon---top--right-green {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1527,7 +1469,6 @@
 
   background: #2ecc71;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #1b7943, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---top--right-green:before span {
@@ -1553,15 +1494,13 @@
   transform: rotate(90deg) translateY(1em);
   margin: 2.5em .9em;
   margin-top: 2em;
-      
-
 }
 
 .snazzy_ribbon---top--right-green:hover a span {
   opacity: 1;
 }
 
- .snazzy_ribbon---top--left-green {
+.snazzy_ribbon---top--left-green {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1585,7 +1524,6 @@
 
   background: #2ecc71;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #1b7943, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---top--left-green:before span {
@@ -1602,22 +1540,17 @@
   -webkit-transition: opacity 0.2s ease, transform 0.4s ease;
   -moz-transition: opacity 0.2s ease, transform 0.4s ease;
   transition: opacity 0.2s ease, transform 0.4s ease;
-      
-
 }
 
 .snazzy_ribbon---top--left-green:hover a span {
   opacity: 1;
 }
 
+/*Snazzy_ribbon classes for green color end*/
 
+/*Snazzy_ribbon classes for orange color start*/
 
-
-
-
-
-
- .snazzy_ribbon---bottom--left-orange {
+.snazzy_ribbon---bottom--left-orange {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1641,7 +1574,6 @@
 
   background: #feae1b;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #b27401, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---bottom--left-orange:before span {
@@ -1672,7 +1604,6 @@
   opacity: 1;
 }
 
-
 .snazzy_ribbon---bottom--right-orange {
   position: fixed;
   width: 10em;
@@ -1697,7 +1628,6 @@
 
   background: #feae1b;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #b27401, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---bottom--right-orange:before span {
@@ -1715,7 +1645,6 @@
   -moz-transition: opacity 0.2s ease, transform 0.4s ease;
   transition: opacity 0.2s ease, transform 0.4s ease;
 
-
   margin-top: .5em;
   margin: .2em 1.6em;
   -webkit-transform: rotate(-180deg);
@@ -1723,16 +1652,13 @@
   -ms-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
   transform: rotate(-180deg)
-      
-
 }
 
 .snazzy_ribbon---bottom--right-orange:hover a span {
   opacity: 1;
 }
 
-
- .snazzy_ribbon---top--right-orange {
+.snazzy_ribbon---top--right-orange {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1754,9 +1680,8 @@
   top: 0;
   right: -10em;
 
- background: #feae1b;
+  background: #feae1b;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #b27401, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---top--right-orange:before span {
@@ -1774,7 +1699,6 @@
   -moz-transition: opacity 0.2s ease, transform 0.4s ease;
   transition: opacity 0.2s ease, transform 0.4s ease;
 
-
   -webkit-transform: rotate(90deg) translateY(1em);
   -moz-transform: rotate(90deg) translateY(1em);
   -ms-transform: rotate(90deg) translateY(1em);
@@ -1782,15 +1706,13 @@
   transform: rotate(90deg) translateY(1em);
   margin: 2.5em .9em;
   margin-top: 2em;
-      
-
 }
 
 .snazzy_ribbon---top--right-orange:hover a span {
   opacity: 1;
 }
 
- .snazzy_ribbon---top--left-orange {
+.snazzy_ribbon---top--left-orange {
   position: fixed;
   width: 10em;
   height: 10em;
@@ -1814,7 +1736,6 @@
 
   background: #feae1b;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), inset 0 0 2em #b27401, inset 0 0 4em rgba(0, 0, 0, 0.2);
-
 }
 
 .snazzy_ribbon---top--left-orange:before span {
@@ -1839,4 +1760,6 @@
   opacity: 1;
 }
 
-/*snazzy github ribbons classes end*/
+/*Snazzy_ribbon classes for orange color end*/
+
+/*snazzy github ribbons classes end

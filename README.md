@@ -44,7 +44,7 @@ Types of ribbons this gem provides:
  
  - `flat_ribbon`
 
-![flat_ribbon](https://github.com/vipulchhabra/fork_ribs/raw/master/app/assets/images/flat_ribbon.png "This is how classic ribbon will look on your application")
+![flat_ribbon](https://github.com/vipulchhabra/fork_ribs/raw/master/app/assets/images/flat_ribbon.png "This is how flat ribbon will look on your application")
 
  - `snazzy_ribbon`
 

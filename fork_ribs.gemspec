@@ -5,7 +5,7 @@ require 'fork_ribs/version'
 Gem::Specification.new do |spec|
   spec.name          = "fork_ribs"
   spec.version       = ForkRibs::VERSION
-  spec.authors       = ["Vipul Chhabra", "Himanshu joshi", "Himanshu gupta", "Shilpi prasad", "Karan arora", "prathiba kn"]
+  spec.authors       = ["Vipul Chhabra"]
   spec.email         = ["vipulchhabra.dc@gmail.com"]
   spec.homepage      = "https://github.com/vipulchhabra/fork_ribs"
   spec.summary       = "Ribbons that can be used for multiple purposes"
